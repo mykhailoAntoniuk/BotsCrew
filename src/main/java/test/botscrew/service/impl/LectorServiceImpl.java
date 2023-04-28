@@ -1,7 +1,6 @@
 package test.botscrew.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import test.botscrew.model.Lector;
 import test.botscrew.repo.LectorRepository;
