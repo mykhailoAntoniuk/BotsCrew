@@ -28,7 +28,7 @@ INSERT INTO lectors (id,firstname, lastname, degree, salary) VALUES (23,'Christo
 INSERT INTO lectors (id,firstname, lastname, degree, salary) VALUES (24,'Sophia', 'Anderson', 'ASSISTANT', 1600);
 INSERT INTO lectors (id,firstname, lastname, degree, salary) VALUES (25,'Madison', 'Harris', 'ASSOCIATE_PROFESSOR', 2100);
 
-INSERT INTO departments VALUES ('computer science', 1);
+INSERT INTO departments (name, head_of_department_id) VALUES ('computer science', 1);
 INSERT INTO departments (name, head_of_department_id) VALUES ('physics', 2);
 INSERT INTO departments (name, head_of_department_id) VALUES ('mathematics', 3);
 INSERT INTO departments (name, head_of_department_id) VALUES ('english', 4);
