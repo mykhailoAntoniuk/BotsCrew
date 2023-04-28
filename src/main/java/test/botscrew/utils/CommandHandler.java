@@ -11,12 +11,12 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class CommandHandler {
     private static final String INCORRECT_COMMAND_MESSAGE = "The command was entered incorrectly, please try again!";
-    private final List<CommandStrategy> interfaces;
+    private final List<CommandStrategy> strategies;
 
     public String handle(String command) {
         command = command.trim().toLowerCase();
         String finalCommand = command;
-        Optional<CommandStrategy> first = interfaces.stream()
+        Optional<CommandStrategy> first = strategies.stream()
                 .filter(cs -> cs.isCommand(finalCommand))
                 .findFirst();
         return first.isPresent() ? first.get().process(command) : INCORRECT_COMMAND_MESSAGE;
