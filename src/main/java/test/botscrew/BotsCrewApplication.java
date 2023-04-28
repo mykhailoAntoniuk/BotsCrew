@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import test.botscrew.ustils.CommandHandler;
+import test.botscrew.utils.CommandHandler;
 
 import java.io.BufferedReader;
 import java.io.IOException;
