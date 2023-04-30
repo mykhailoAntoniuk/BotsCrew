@@ -24,5 +24,5 @@ Application for tracking employees of university departments. Checking average s
   1) Setup JDK 17 and make sure your PATH variable for JAVA_HOME is correctness
   2) Clone this repository to your local enviroment
   3) Open root folder of cloned project in your console EXAMPLE: ```$path\to\root\BotsCrew```
-  4) Execute ```mvnw spring-boot:run``` Windows CMD (adapt it for your OS) Linux\MacOS ```./mvnw spring-boot:run```
+  4) Execute ```mvnw spring-boot:run``` Windows CMD (adapt it for your OS) Linux\MacOS ```./mvnw spring-boot:run``` in some cases, you need to change permissions use ```chmod +rwx mvnw``` for Linux\MacOS
   5) Enjoy
